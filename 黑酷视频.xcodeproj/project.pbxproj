@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7DBE43961AC129EA008E686C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DBE43951AC129EA008E686C /* main.m */; };
+		7DBE43991AC129EA008E686C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DBE43981AC129EA008E686C /* AppDelegate.m */; };
+		7DBE439C1AC129EA008E686C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DBE439B1AC129EA008E686C /* ViewController.m */; };
+		7DBE439F1AC129EA008E686C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DBE439D1AC129EA008E686C /* Main.storyboard */; };
+		7DBE43A11AC129EA008E686C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DBE43A01AC129EA008E686C /* Images.xcassets */; };
+		7DBE43A41AC129EA008E686C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7DBE43A21AC129EA008E686C /* LaunchScreen.xib */; };
+		7DBE43B01AC129EA008E686C /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DBE43AF1AC129EA008E686C /* ____Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7DBE43AA1AC129EA008E686C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7DBE43881AC129EA008E686C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7DBE438F1AC129EA008E686C;
+			remoteInfo = "黑酷视频";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7DBE43901AC129EA008E686C /* 黑酷视频.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "黑酷视频.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DBE43941AC129EA008E686C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DBE43951AC129EA008E686C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7DBE43971AC129EA008E686C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7DBE43981AC129EA008E686C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7DBE439A1AC129EA008E686C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7DBE439B1AC129EA008E686C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7DBE439E1AC129EA008E686C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7DBE43A01AC129EA008E686C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7DBE43A31AC129EA008E686C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		7DBE43A91AC129EA008E686C /* 黑酷视频Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "黑酷视频Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DBE43AE1AC129EA008E686C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DBE43AF1AC129EA008E686C /* ____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____Tests.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7DBE438D1AC129EA008E686C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DBE43A61AC129EA008E686C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7DBE43871AC129EA008E686C = {
+			isa = PBXGroup;
+			children = (
+				7DBE43921AC129EA008E686C /* 黑酷视频 */,
+				7DBE43AC1AC129EA008E686C /* 黑酷视频Tests */,
+				7DBE43911AC129EA008E686C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7DBE43911AC129EA008E686C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7DBE43901AC129EA008E686C /* 黑酷视频.app */,
+				7DBE43A91AC129EA008E686C /* 黑酷视频Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DBE43921AC129EA008E686C /* 黑酷视频 */ = {
+			isa = PBXGroup;
+			children = (
+				7DBE43971AC129EA008E686C /* AppDelegate.h */,
+				7DBE43981AC129EA008E686C /* AppDelegate.m */,
+				7DBE439A1AC129EA008E686C /* ViewController.h */,
+				7DBE439B1AC129EA008E686C /* ViewController.m */,
+				7DBE439D1AC129EA008E686C /* Main.storyboard */,
+				7DBE43A01AC129EA008E686C /* Images.xcassets */,
+				7DBE43A21AC129EA008E686C /* LaunchScreen.xib */,
+				7DBE43931AC129EA008E686C /* Supporting Files */,
+			);
+			path = "黑酷视频";
+			sourceTree = "<group>";
+		};
+		7DBE43931AC129EA008E686C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7DBE43941AC129EA008E686C /* Info.plist */,
+				7DBE43951AC129EA008E686C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7DBE43AC1AC129EA008E686C /* 黑酷视频Tests */ = {
+			isa = PBXGroup;
+			children = (
+				7DBE43AF1AC129EA008E686C /* ____Tests.m */,
+				7DBE43AD1AC129EA008E686C /* Supporting Files */,
+			);
+			path = "黑酷视频Tests";
+			sourceTree = "<group>";
+		};
+		7DBE43AD1AC129EA008E686C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7DBE43AE1AC129EA008E686C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7DBE438F1AC129EA008E686C /* 黑酷视频 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7DBE43B31AC129EA008E686C /* Build configuration list for PBXNativeTarget "黑酷视频" */;
+			buildPhases = (
+				7DBE438C1AC129EA008E686C /* Sources */,
+				7DBE438D1AC129EA008E686C /* Frameworks */,
+				7DBE438E1AC129EA008E686C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "黑酷视频";
+			productName = "黑酷视频";
+			productReference = 7DBE43901AC129EA008E686C /* 黑酷视频.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7DBE43A81AC129EA008E686C /* 黑酷视频Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7DBE43B61AC129EA008E686C /* Build configuration list for PBXNativeTarget "黑酷视频Tests" */;
+			buildPhases = (
+				7DBE43A51AC129EA008E686C /* Sources */,
+				7DBE43A61AC129EA008E686C /* Frameworks */,
+				7DBE43A71AC129EA008E686C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7DBE43AB1AC129EA008E686C /* PBXTargetDependency */,
+			);
+			name = "黑酷视频Tests";
+			productName = "黑酷视频Tests";
+			productReference = 7DBE43A91AC129EA008E686C /* 黑酷视频Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7DBE43881AC129EA008E686C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = jinheng;
+				TargetAttributes = {
+					7DBE438F1AC129EA008E686C = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					7DBE43A81AC129EA008E686C = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 7DBE438F1AC129EA008E686C;
+					};
+				};
+			};
+			buildConfigurationList = 7DBE438B1AC129EA008E686C /* Build configuration list for PBXProject "黑酷视频" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7DBE43871AC129EA008E686C;
+			productRefGroup = 7DBE43911AC129EA008E686C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7DBE438F1AC129EA008E686C /* 黑酷视频 */,
+				7DBE43A81AC129EA008E686C /* 黑酷视频Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7DBE438E1AC129EA008E686C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DBE439F1AC129EA008E686C /* Main.storyboard in Resources */,
+				7DBE43A41AC129EA008E686C /* LaunchScreen.xib in Resources */,
+				7DBE43A11AC129EA008E686C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DBE43A71AC129EA008E686C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7DBE438C1AC129EA008E686C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DBE439C1AC129EA008E686C /* ViewController.m in Sources */,
+				7DBE43991AC129EA008E686C /* AppDelegate.m in Sources */,
+				7DBE43961AC129EA008E686C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DBE43A51AC129EA008E686C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DBE43B01AC129EA008E686C /* ____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7DBE43AB1AC129EA008E686C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7DBE438F1AC129EA008E686C /* 黑酷视频 */;
+			targetProxy = 7DBE43AA1AC129EA008E686C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7DBE439D1AC129EA008E686C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7DBE439E1AC129EA008E686C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7DBE43A21AC129EA008E686C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7DBE43A31AC129EA008E686C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7DBE43B11AC129EA008E686C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7DBE43B21AC129EA008E686C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7DBE43B41AC129EA008E686C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "黑酷视频/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7DBE43B51AC129EA008E686C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "黑酷视频/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7DBE43B71AC129EA008E686C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "黑酷视频Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/黑酷视频.app/黑酷视频";
+			};
+			name = Debug;
+		};
+		7DBE43B81AC129EA008E686C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "黑酷视频Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/黑酷视频.app/黑酷视频";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7DBE438B1AC129EA008E686C /* Build configuration list for PBXProject "黑酷视频" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DBE43B11AC129EA008E686C /* Debug */,
+				7DBE43B21AC129EA008E686C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7DBE43B31AC129EA008E686C /* Build configuration list for PBXNativeTarget "黑酷视频" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DBE43B41AC129EA008E686C /* Debug */,
+				7DBE43B51AC129EA008E686C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7DBE43B61AC129EA008E686C /* Build configuration list for PBXNativeTarget "黑酷视频Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DBE43B71AC129EA008E686C /* Debug */,
+				7DBE43B81AC129EA008E686C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7DBE43881AC129EA008E686C /* Project object */;
+}
