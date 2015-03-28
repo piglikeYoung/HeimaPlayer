@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  JHNavigationController.h
 //  黑酷视频
 //
 //  Created by piglikeyoung on 15/3/24.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UITableViewController
-
+@interface JHNavigationController : UINavigationController
 
 @end
-
